@@ -1,4 +1,4 @@
-                // javascript Assignment:1 (Start)
+                              // javascript Assignment:1 (Start)
                     // Alert
                     // Total(Q1-6)
 //Q1:
@@ -453,4 +453,359 @@
 // var num10 = num * 10;
 // document.write(num+"x10="+num10);
 
-                                           //javascript Assignment:6-9 (End)
+                       //javascript Assignment:6-9 (End)
+                       
+                       //javascript Assignment:9-11 (Start)
+                      // USER INPUT & CONDITIONAL STATEMENT 
+                               // Total(Q1-10)
+
+//Q1:
+// var cityName = prompt("Enter a city name");
+// if(cityName === "Karachi") {
+//   console.log("Welcome to city of lights");
+// }     
+
+//Q2:
+// var gender = prompt("Enter your gender here");
+// if(gender === "male") {
+//   console.log("Good Morning Sir");
+// }
+// if(gender === "female") {
+//   console.log("Good Morning Ma'am")
+// }
+
+//Q3:
+// var signalColor = prompt("Enter a color of road traffic signal");
+// if(signalColor === "Red") {
+//   console.log("Must Stop");
+// }
+// if(signalColor === "Yellow") {
+//   console.log("Ready to move");
+// }
+// if(signalColor === "Green") {
+//   console.log("Move now");
+// }
+
+//Q4:
+// var currentFuel = +prompt("Enter a remaining fuel in car");
+// if(currentFuel < 0.25) {
+//   console.log("Please refill the fuel in your car")
+// }
+
+//Q5:
+//a)
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+//b)
+//  var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+//c)
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+//d)
+//  var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+//e)
+// if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+//f)
+// if("car" < "cat"){
+//   alert("car is smaller than cat");
+//   }
+
+//Q6:
+// var marksObtained = +prompt("Enter a three subjects obtained marks");
+// var totalMarks = +prompt("Enter a totalmarks of three subjects");
+// var Percentage = marksObtained/totalMarks*100;
+// alert(Percentage); 
+// if(Percentage >= 80) {
+//   console.log("Grade :A-one");
+//   console.log("Excellent");
+// }
+// if(Percentage >= 70  && Percentage <=79) {
+//   console.log("Grade A");
+//   console.log("Remarks : Good");
+// }if(Percentage >= 60  && Percentage <=69) {
+//   console.log("Grade :B");
+//   console.log("Remarks : You need to improve");
+// }if(Percentage < 60) {
+//   console.log("Grade :Fail");
+//   console.log("Remarks : Sorry");
+// }
+
+//Q7:
+//(a,b)
+// var secretNumber = 5;
+// var GuessNumber = +prompt("Please guess the secret number");
+// if(GuessNumber === secretNumber){
+//   console.log("Bingo! Correct answer");
+// }
+// if(++GuessNumber !== secretNumber){
+//   console.log("Close enough to correct answer")
+// }
+
+//Q8:
+// var num = +prompt("Enter a number");
+// if(num % 3 === 0) {
+//   console.log("The given numbe is divisble by 3")
+// }
+
+//Q9:
+// var number = +prompt("Enter a number");
+// if(number % 2 === 0){
+//   console.log("The given input is Even Number");
+// }
+// if(number % 2 === 1){
+//   console.log("The given input is Odd Number");
+// }
+
+//Q10:(a,b,c,d)
+// var Temp = +prompt("Enter a Temperature");
+// if(Temp > 40){
+//   console.log("It is too hot outside");
+// }
+// if(Temp > 30){
+//   console.log("The Weather today is Normal")
+// }
+// if(Temp > 20){
+//   console.log("Today’s Weather is cool")
+// }
+// if(Temp  >10) {
+//   console.log("OMG! Today’s weather is so Cool.")
+// }
+                      //javascript Assignment:9-11 (End)
+                
+                
+                
+                       //javascript Assignment:12-13 (Start)
+                          // IF…ELSE & ELSE IF STATEMENT,
+                           // TESTING SET OF CONDITIONST 
+                               // Total(Q1-7)
+                      
+//Q1:
+// var character = +prompt("Enter a number or string");
+// if(character === ){}
+
+//Q2:
+// var a = +prompt("Enter a integer 1");
+// var b = +prompt("Enter a integer 2");
+// if(a>b){
+//   alert("integer 1 is larger");
+// }
+// else if(b>a){
+//   alert("integer 2 is larger");
+// }else if(a === b){
+//   alert("Both integers are equal")
+// }
+
+//Q3:
+// var num1 = +prompt("Enter a number");
+// if(num1 > 0){
+//   alert("Number is positive");
+// }
+// else if(num1<0){
+//   alert("Number is negative");
+// }
+// else if(num1 === 0){
+//   alert("Number zero")
+// }
+
+//Q4:
+// var character1 = prompt("Enter a string of length1");
+// if (character1  === "a" || character1 === "e" || character1 === "i" || character1 === "o" || character1 === "u") {
+//   alert("character is Vowel");
+// }
+// else{
+//   alert("Character is not a vowel");
+// }
+
+
+//Q5:(1,2)
+// var correctPassword = 12345;
+// var Password = +prompt("Enter your password");
+// 1)
+// if(correctPassword !== Password){
+//   alert("Please enter your Password");
+// }
+// 2)
+// if(correctPassword === Password) {
+// alert("Correct! The password you entered matches the original password");
+// }
+// else{
+//   alert("Incorrect password");
+// }
+
+
+//Q6:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// alert(greeting = "Good day");
+// }
+// else {
+// alert(greeting = "Good evening");
+// }
+
+//Q7:
+// var time = prompt("Enter a time like: 1900 = 7pm");
+// if (time >= 0000 && time < 1200) {
+// alert("Good morning!")
+// }
+// else if (time >= 1200 && time < 1700) {
+//   alert("Good afternoon!")
+// }
+// else if (time >= 1700 && time < 2100) {
+//   alert("Good evening!")
+// }else if (time >= 2100 && time <=2359) {
+//   alert("Good night!")
+// } else{
+//   alert("Time Range is (0000 to 2359)")
+// }
+
+                                   //javascript Assignment:12-13 (end)
+
+
+
+                                   
+                       //javascript Assignment:14-16 (Start)
+                                   //ARRAYS
+                               // Total(Q1-7)
+
+//Q3:
+// var arr1 = [ "Faisal","Faraz","Furqan"];
+
+//Q4:
+// var arr2 = [1,3,5,6,7,8];
+
+//Q5:
+// var arr3 = [true,false];
+
+//Q6:
+// var arr4 = ["Faisal",1,true]
+
+//Q7:
+// var arr5 = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil","PhD"]
+// document.write("Qualifications :")
+// document.write("<br><br>")
+// document.write(arr5[0])
+// document.write("<br>")
+// document.write(arr5[1])
+// document.write("<br>")
+// document.write(arr5[2])
+// document.write("<br>")
+// document.write(arr5[3])
+// document.write("<br>")
+// document.write(arr5[4])
+// document.write("<br>")
+// document.write(arr5[5])
+// document.write("<br>")
+// document.write(arr5[6])
+// document.write("<br>")
+// document.write(arr5[7])
+
+//Q8:
+// var studentsName = ["Michael","John","Tony"];
+// var Score= [320 ,230 ,480];
+// var totalMarks = 500;
+// var Percentage1 = Score[0]/totalMarks*100;
+// var Percentage2 = Score[1]/totalMarks*100;
+// var Percentage3 = Score[2]/totalMarks*100;
+// document.write("Score of "+studentsName[0]+" is "+Score[0]+". "+"Percentage: "+Percentage1+"%");
+// document.write("<br>")
+// document.write("Score of "+studentsName[1]+" is "+Score[1]+". "+"Percentage: "+Percentage2+"%");
+// document.write("<br>")
+// document.write("Score of "+studentsName[2]+" is "+Score[2]+". "+"Percentage: "+Percentage3+"%");
+
+
+
+//Q11:   
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];  
+// var selectedCities = cities.slice(2,4);   
+// document.write("Cities list:");
+// document.write("<br>");
+// document.write(cities);
+// document.write("<br>");
+// document.write("<br>");
+// document.write("Selected cities list:")
+// document.write("<br>");
+// document.write(selectedCities);
+
+                       //javascript Assignment:14-16 (end)
+
+                      
+                       //(javascript Assignment:17-20)(start)
+                      // ARRAYS AND LOOP
+                               // Total(Q1-3)
+                  
+//Q3:
+// for(var i=1; i<=10 ; i++) {
+//   console.log(i);
+// }
+
+//Q6:(a-e)
+// document.write("<h1>Counting:</h2>");
+// document.write("<br>")
+// for(var i=1; i<=15 ; i++) {
+//  document.write(i+",");
+// }
+//a)
+// document.write("<h1>ReverseCounting:</h2>");
+// document.write("<br>");
+// for(var j=10; j<=10 ; j--) {
+//  document.write(j+",");
+// }
+// //b)
+// document.write("<h1>Even:</h2>");
+// document.write("<br>");
+// for(var k=0; k<=20 ; k+=2) {
+//  document.write(k+",");
+// }
+// //c)
+
+// document.write("<h1>Odd:</h2>");
+// document.write("<br>");
+// for(var l=1; l<=19 ; l+=3) {
+//  document.write(l+",");
+// }
+// //d)
+// document.write("<h1>Odd:</h2>");
+// document.write("<br>");
+// for(var l=1; l<=19 ; l+=3) {
+//  document.write(l+",");
+// }
+// //e)
+// document.write("<h1>Series:</h2>");
+// document.write("<br>");
+// for(var m=2; m<=20 ; m+=2) {
+//  document.write(m+"k"+",");
+// }
+
+
+// //Q10:
+// // for(var i=5; i<=100 ; i+=5) {
+// //   document.write(i+",");
+// // }
+                       //javascript Assignment:17-20 (end)
